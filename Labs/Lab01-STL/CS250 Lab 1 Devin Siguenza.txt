@@ -1,0 +1,32 @@
+Questions and Answers 
+CS 250 - Devin Siguenza
+
+1.
+a.) Parameters are the variables declared within the parenthesis when writing a function.
+Arguments are the pieces of data that you pass into a function call.
+b.)An element is an individual piece of data stored within an array. An index is a value that we can use to reference a specific element within an array.
+
+2.
+a.) $vector.clear() will clear the contents of a vector.
+b.) $vector.push_back() and $vector.insert()
+
+3.
+a.) $list.size() will return the size of a list.
+b.) $list.reverse() will reverse the items in a list.
+
+4.
+a.) $queue.push($value) will add an item to the queue.
+b.) $queue.pop() will remove the front item.
+c.) $queue.front() will access the front item.
+d.) $queue.empty() will return a boolean in regards to whether it's empty or not.
+
+5.
+a.) $stack.push() adds an item to the stack.
+b.) $stack.pop() removes an item from the stack.
+c.) $stack.top() accesses the next item in the stack.
+d.) Stacks are generally last in first out data structures. Queues are first in first out data structures.
+
+6.
+a.) keys are the pieces of data used to sort and identify elements in the structure. 
+b.) values are the pieces of data associated with keys in the structure.
+c.) Maps are also known as dictionaries or hash-table data structures.

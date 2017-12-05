@@ -1,0 +1,116 @@
+
+RUN ALL TESTS
+
+
+--------------------------------------------------------------------------------
+TEST SET: Insert()
+PREREQUISITE FUNCTIONS: Insert()
+--------------------------------------------------------------------------------
+Test 1: Test 1: Insert 1 item
+Test 2: Test 2: Insert B-A-C
+Test 3: Test 3: Insert A-B-C
+Test 4: Test 4: Insert C-B-A
+
+(PASS) 4 passed out of 4 tests
+
+
+--------------------------------------------------------------------------------
+TEST SET: Contains()
+PREREQUISITE FUNCTIONS: Contains(), Insert()
+--------------------------------------------------------------------------------
+Test 1: Test 1: Check if an item contained in the list returns true, tree size 1
+Test 2: Test 2: Check if an item contained in the list returns true, tree size 3
+Test 3: Test 3: Check if an item NOT contained in the list returns false
+
+(PASS) 3 passed out of 3 tests
+
+
+--------------------------------------------------------------------------------
+TEST SET: FindNode()
+PREREQUISITE FUNCTIONS: FindNode()
+--------------------------------------------------------------------------------
+Test 1: Test 1: Check if an item contained in the list returns true, tree size 1
+Test 2: Test 2: Check if an item contained in the list returns true, tree size 3
+Test 3: Test 3: Check if an item NOT contained in the list returns false
+
+(PASS) 3 passed out of 3 tests
+
+
+--------------------------------------------------------------------------------
+TEST SET: FindParentOfNode()
+PREREQUISITE FUNCTIONS: FindParentOfNode()
+--------------------------------------------------------------------------------
+Test 1: Test 1: Check if an item contained in the list returns true, tree size 1
+Test 2: Test 2: Check if an item contained in the list returns true, tree size 3
+Test 3: Test 3: Check if an item NOT contained in the list doesn't return nullptr
+
+(PASS) 3 passed out of 3 tests
+
+
+--------------------------------------------------------------------------------
+TEST SET: Delete()
+PREREQUISITE FUNCTIONS: Insert(), Delete()
+--------------------------------------------------------------------------------
+Test 1: Delete Test 1: Delete a leaf
+Test 2: Delete Test 2: Delete a non-leaf; Insert: 5, 3, 7, 6, 8
+
+(FAIL) 1 passed out of 2 tests
+
+
+--------------------------------------------------------------------------------
+TEST SET: GetInOrder()
+PREREQUISITE FUNCTIONS: GetInOrder(), Insert()
+--------------------------------------------------------------------------------
+Test 1: Test 1: Insert F, B, G, A, D, I, H, C, E into tree, get back as in-order...
+
+(PASS) 1 passed out of 1 tests
+
+
+--------------------------------------------------------------------------------
+TEST SET: GetPreOrder()
+PREREQUISITE FUNCTIONS: GetPreOrder(), Insert()
+--------------------------------------------------------------------------------
+Test 1: Test 1: Insert F, B, G, A, D, I, H, C, E into tree, get back as pre-order...
+
+(PASS) 1 passed out of 1 tests
+
+
+--------------------------------------------------------------------------------
+TEST SET: GetPostOrder()
+PREREQUISITE FUNCTIONS: GetPostOrder(), Insert()
+--------------------------------------------------------------------------------
+Test 1: Test 1: Insert F, B, G, A, D, I, H, C, E into tree, get back as post-order...
+
+(PASS) 1 passed out of 1 tests
+
+
+--------------------------------------------------------------------------------
+TEST SET: GetMax()
+PREREQUISITE FUNCTIONS: GetMax(), Insert()
+--------------------------------------------------------------------------------
+Test 1: Test 1: Insert one item, get max value...
+Test 2: Test 2: Insert B, A, C, D, E, get max value...
+
+(PASS) 2 passed out of 2 tests
+
+
+--------------------------------------------------------------------------------
+TEST SET: GetCount()
+PREREQUISITE FUNCTIONS: GetCount(), Insert()
+--------------------------------------------------------------------------------
+Test 1: Test 1: Insert nothing into tree, check count...
+Test 2: Test 2: Insert five things into tree, check count...
+
+(PASS) 2 passed out of 2 tests
+
+
+--------------------------------------------------------------------------------
+TEST SET: GetHeight()
+PREREQUISITE FUNCTIONS: GetHeight(), Insert()
+--------------------------------------------------------------------------------
+Test 1: Test 1: Empty tree...
+Test 2: Test 2: One level...
+Test 3: Test 3: Two levels...
+Test 4: Test 4: Three levels...
+
+(PASS) 4 passed out of 4 tests

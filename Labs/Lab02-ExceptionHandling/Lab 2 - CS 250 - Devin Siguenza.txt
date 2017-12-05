@@ -1,0 +1,12 @@
+CS 250 - Devin Siguenza - Lab 2 Questions
+1.
+1.)No-Throw Guarantee
+2.)Strong exception Safety
+3.)Basic Exception Safety
+4.)No Exception Safety
+
+2.) There can be multiple catch blocks per single try block.
+
+3.)domain_error, invalid_argument,length_error,out_of_range, and future_error are all children of logic_error.
+
+4.) range_error, overflow_error, underflow_error, and system_error are all children of runtime error.
